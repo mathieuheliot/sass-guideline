@@ -1,6 +1,30 @@
 # sass-guideline
 SASS Guide: A starting point for Frontend development teams to provide consistency through good practices.
 
+## Naming conventions
+### Variables
+Use consistent names for all variables following a pattern that describes the variable's feature then its type.
+
+My recommanded pattern is `$[name]-[scope?]-[variant?]-[type]`.
+
+```scss
+// Primary colors
+// @type Color
+$primary-color: rgb('255, 121, 0');
+$primary-background-color: rgb('255, 255, 255');
+$primary-link-color: rgb('255, 121, 0');
+
+// Secondary Colors
+// @type Color
+$secondary-color: rgb('80, 190, 135');
+$secondary-text-color: rgb('221, 221, 221');
+$secondary-text-darken-color: rgb('153, 153, 153');
+```
+
+_Why?: Naming conventions help provide a consistent way to find content at a glance. Consistency within the project is vital. Consistency with a team is important. Consistency across a company provides tremendous efficiency._
+
+_Why?: The naming conventions should simply help you find your code faster and make it easier to understand._
+
 License
 --------------
 
